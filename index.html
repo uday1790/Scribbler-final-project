@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="header">
+        <button id="btn1">Sign In</button>
+        <button id="btn2">Sign Up</button>
+         <div class="headingsc">
+             ScriBBler
+         </div>
+         <div class="heading1sc">
+             Explore.Imagine.Create
+         </div>
+    </div>
+    <div class="container">
+        <button id="btn3" onclick="document.location='bloglist.html'">All Posts</button>
+        <button id="btn4">Create Post</button>
+    </div>
+
+    <div id="myModal" class="bg-modal">
+        <div class="modal-content">
+            <!-- <span class ="close">&times;</span> -->
+            <div class="close">+</div>
+            <h1>Get Started</h1>
+            <hr>
+            <form>
+                <label for="fname">Full Name</label><br>
+                <input type="text"  placeholder="Enter full Name" required><br>
+                <label for="uname">Username</label><br>
+                <input type="text"  placeholder="Enter Username" required><br>
+                <label for="passwd">Paasword</label><br>
+                <input type="password" placeholder="Enter password" required><br>
+                <label for="passwd">Confirm Pssword</label><br>
+                <input type="password" placeholder="Confirm Password" required><br>
+                <a href=""><button id="btn5">Sign Up</button></a>
+            </form>
+
+        </div>
+    </div>
+    <div id="myModal1" class="bg-modal1">
+        <div class="modal-content1">
+            <div class="close1">+</div>
+            <h1>Welcome Back!</h1>
+            <hr>
+            <form>
+                <label>Username</label>
+                <input type="text" placeholder="Enter Username"><br>
+                <label>Password</label><br>
+                <input type="password" placeholder="Enter password"><br>
+                <a href=""><button id="btn6">Sign In</button></a><br><br>
+                <p>Not a Member?<span id="btn8">Sign Up</span></p>
+            </form>
+        </div>
+    </div>
+    <div id="myModal2" class="bg-modal2">
+        <div class="modal-content2">
+            <div class="close2">+</div>
+            <h1>Pen Your Post</h1><br>
+            <form>
+                <label>Title</label><br>
+                <input type="text"><br>
+                <label>Content:</label><br>
+                <textarea rows="15" cols="65"></textarea><br><br>
+                <button id="btn7">Create</button>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
